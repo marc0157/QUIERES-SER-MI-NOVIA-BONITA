@@ -3,11 +3,11 @@ import { Heart, X } from 'lucide-react';
 
 // Romantic couple images from Unsplash
 const IMAGES = [
-  "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800",
-  "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800",
-  "https://images.unsplash.com/photo-1545389336-cf090694435e?w=800",
-  "https://images.unsplash.com/photo-1529333241880-9558d5e5e064?w=800",
-  "https://images.unsplash.com/photo-1519307212971-dd9561667b11?w=800"
+ "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800", // Image 1
+  "https://subir-imagen.com/images/2025/02/08/IMG_2024-03-18-11-02-37-126.jpg", // Image 2
+  "https://subir-imagen.com/images/2025/02/08/IMG_2024-03-19-15-49-06-878.jpg", // Image 3
+  "https://subir-imagen.com/images/2025/02/08/IMG_2024-03-18-12-23-10-029.jpg", // Image 4
+  "https://images.unsplash.com/photo-1519307212971-dd9561667b11?w=800"  // Image 5
 ];
 
 const COVER_PHRASES = [
@@ -28,13 +28,26 @@ const LOVE_PHRASES = [
 ];
 
 const EXTRA_MESSAGES = [
-  "¿De verdad no quieres? 🥺",
+"¿De verdad no quieres? 🥺",
   "Vamos, piénsalo mejor... 😊",
   "No me hagas poner triste 😢",
   "¡Dame una oportunidad! 💝",
   "¡Sé que en el fondo quieres decir sí! 💕",
   "¡No puedes resistirte a tanto amor! 🌹",
   "¡Última oportunidad! 💘"
+   "Confía en mí, será increíble 🌈"
+   "No puedo dejar de pensar en ti 💭"
+   "Cada minuto sin ti es una eternidad ⏳"
+	"Vamos, toma mi mano y emprendamos juntos esta aventura 🚀"
+
+
+
+
+
+
+
+
+  
 ];
 
 function App() {
