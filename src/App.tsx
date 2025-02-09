@@ -33,10 +33,10 @@ const EXTRA_MESSAGES = [
   "¡Dame una oportunidad! 💝",
   "¡Sé que en el fondo quieres decir sí! 💕",
   "¡No puedes resistirte a tanto amor! 🌹",
-  "¡Última oportunidad! 💘"
-   "Confía en mí, será increíble 🌈"
-   "No puedo dejar de pensar en ti 💭"
-   "Cada minuto sin ti es una eternidad ⏳"
+  "¡Última oportunidad! 💘",
+   "Confía en mí, será increíble 🌈",
+   "No puedo dejar de pensar en ti 💭",
+   "Cada minuto sin ti es una eternidad ⏳",
 "Vamos, toma mi mano y emprendamos juntos esta aventura 🚀"
 ];
 
