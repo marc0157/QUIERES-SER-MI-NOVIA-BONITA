@@ -12,10 +12,10 @@ const IMAGES = [
 
 const COVER_PHRASES = [
   "Abre mi Princesa ❤️🌹26🌹❤️",
-  "Ábrelo con Amor 💝",
+  "Yganaste la apuesta 💝",
   "Un Regalo Especial 🎁",
-  "Para Ti con Cariño 💕",
-  "Te Amo Mi Vida 💖"
+  "Recuerdo de anillo💕",
+  "Nuestro hijos 💖"
 ];
 
 const LOVE_PHRASES = [
@@ -23,7 +23,6 @@ const LOVE_PHRASES = [
   "Eres Mi Princesa 👑",
   "Te Amo Bonita 💝",
   "Siempre Juntos 🤗",
-  "Hasta Pasitas 👵🏻👴🏻",
   "Nunca Cambiaré 💑"
 ];
 
