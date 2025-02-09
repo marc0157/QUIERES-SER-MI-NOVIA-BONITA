@@ -228,8 +228,9 @@ function App() {
               </h2>
               <p className="text-gray-700 leading-relaxed">
                 En este día tan especial, quiero decirte que eres la luz que ilumina mi vida.
-                Cada momento contigo es un regalo que atesoro en mi corazón.
+                Cada momento contigo Bonita ♥ es un regalo que atesoro en mi corazón.
                 Te amo más de lo que las palabras pueden expresar.
+                 Nunca cambiare Hermosa🌹
               </p>
               <Heart
                 className="w-12 h-12 cursor-pointer transition-colors duration-300 hover:text-pink-500"
@@ -256,7 +257,7 @@ function App() {
                   setShowImages(true);
                 }}
               >
-                Con todo mi amor ❤️
+                ❤️❤️ SORPRESA MI VIDA ❤️❤️
               </p>
             </div>
           )}
