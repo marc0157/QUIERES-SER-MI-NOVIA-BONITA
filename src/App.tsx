@@ -3,11 +3,11 @@ import { Heart, X } from 'lucide-react';
 
 // Romantic couple images from Unsplash
 const IMAGES = [
- "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800", // Image 1
+ "https://subir-imagen.com/images/2025/02/08/photocollage_202392520749436.jpg", // Image 1
   "https://subir-imagen.com/images/2025/02/08/IMG_2024-03-18-11-02-37-126.jpg", // Image 2
   "https://subir-imagen.com/images/2025/02/08/IMG_2024-03-19-15-49-06-878.jpg", // Image 3
   "https://subir-imagen.com/images/2025/02/08/IMG_2024-03-18-12-23-10-029.jpg", // Image 4
-  "https://images.unsplash.com/photo-1519307212971-dd9561667b11?w=800"  // Image 5
+  "https://subir-imagen.com/images/2025/02/08/IMG-20240513-WA0001.jpg"  // Image 5
 ];
 
 const COVER_PHRASES = [
@@ -38,16 +38,7 @@ const EXTRA_MESSAGES = [
    "Confía en mí, será increíble 🌈"
    "No puedo dejar de pensar en ti 💭"
    "Cada minuto sin ti es una eternidad ⏳"
-	"Vamos, toma mi mano y emprendamos juntos esta aventura 🚀"
-
-
-
-
-
-
-
-
-  
+"Vamos, toma mi mano y emprendamos juntos esta aventura 🚀"
 ];
 
 function App() {
@@ -156,7 +147,8 @@ function App() {
         <Dialog show={true} onClose={handleAcceptanceClose}>
           <div className="text-center space-y-6">
             <h2 className="text-3xl font-bold text-pink-600">
-              ¡Sabía que ibas a aceptar Mi Princesa! 🌹💗💗🌹
+              ¡Sabía que ibas a aceptar 
+	        Mi Princesa! 🌹💗💗🌹
             </h2>
             <Button onClick={handleAcceptanceClose} primary>Continuar</Button>
           </div>
