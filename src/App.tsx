@@ -93,9 +93,10 @@ function App() {
 
   const Dialog = ({ show, onClose, children }: { show: boolean; onClose?: () => void; children: React.ReactNode }) => {
     if (!show) return null;
+     // Added bg-white and bg-opacity-80 here
     return (
       <div className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50">
-        <div className="bg-white rounded-2xl p-6 max-w-md w-full shadow-xl">
+        <div className="bg-white bg-opacity-40 rounded-2xl p-6 max-w-md w-full shadow-xl">
           <div className="flex justify-end">
             {onClose && (
               <button onClick={onClose} className="text-gray-500 hover:text-gray-700">
@@ -124,10 +125,17 @@ function App() {
 
   if (showProposal) {
     return (
-      <div className="min-h-screen bg-pink-50 flex items-center justify-center">
+      <div
+        className="min-h-screen min-w-screen flex items-center justify-center"
+        style={{
+          backgroundImage: `url("https://subir-imagen.com/images/2025/02/08/fondo1.png")`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
         <Dialog show={true} onClose={handleNo}>
           <div className="text-center space-y-6">
-            <h2 className="text-3xl font-bold text-pink-600">
+            <h2 className="text-3xl font-bold text-pink-700">
               {dialogIndex === 0 ? "¿Quieres ser mi Novia?" : EXTRA_MESSAGES[dialogIndex - 1]}
             </h2>
             <div className="flex justify-center gap-4">
@@ -146,8 +154,7 @@ function App() {
         <Dialog show={true} onClose={handleAcceptanceClose}>
           <div className="text-center space-y-6">
             <h2 className="text-3xl font-bold text-pink-600">
-              ¡Sabía que ibas a aceptar 
-	        Mi Princesa! 🌹💗💗🌹
+              ¡Sabía que ibas a aceptar Mi Princesa! 🌹💗💗🌹
             </h2>
             <Button onClick={handleAcceptanceClose} primary>Continuar</Button>
           </div>
@@ -172,7 +179,7 @@ function App() {
                 animationDuration: `${3 + Math.random() * 2}s`
               }}
             >
-              <div 
+              <div
                 className="w-4 h-4 bg-pink-300 rounded-full opacity-80 rotate-45"
                 style={{
                   animation: `rotate ${2 + Math.random() * 2}s linear infinite`
@@ -184,7 +191,7 @@ function App() {
       )}
 
       {/* Card */}
-      <div 
+      <div
         className={`relative w-full max-w-md aspect-[3/4] transition-transform duration-1000 transform-style-3d cursor-pointer ${
           isOpen ? 'rotate-y-180' : ''
         }`}
@@ -224,8 +231,8 @@ function App() {
                 Cada momento contigo es un regalo que atesoro en mi corazón.
                 Te amo más de lo que las palabras pueden expresar.
               </p>
-              <Heart 
-                className="w-12 h-12 cursor-pointer transition-colors duration-300 hover:text-pink-500" 
+              <Heart
+                className="w-12 h-12 cursor-pointer transition-colors duration-300 hover:text-pink-500"
                 fill="currentColor"
                 onClick={(e) => {
                   e.stopPropagation();
@@ -237,7 +244,7 @@ function App() {
                   WebkitTextFillColor: 'transparent'
                 }}
               />
-              <p 
+              <p
                 className="font-semibold cursor-pointer transition-all duration-300 hover:scale-110"
                 style={{
                   background: 'linear-gradient(45deg, #ef4444, #ec4899)',
